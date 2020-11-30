@@ -93,7 +93,7 @@ Com veiem, el treballar amb el mode strict, ens obliga a definir variables, de m
 
 * El nom de les variables pot contindre qualsevol caràcter alfanumèric, més el símbol $ i _.
 * Poden començar per qualsevol caràcter, més el $ i el _,però no per un número.
-* El nom El nom de les variables sol indicar-se amb format **CamelCase** (la primera lletra de cada paraula en majúscules i la resta en minúscules).
+* El nom de les variables sol indicar-se amb format **CamelCase** (la primera lletra de cada paraula en majúscules i la resta en minúscules).
 
 #### Tipus de variables i assignació dinàmica
 
@@ -166,7 +166,7 @@ Per tal de saber el tipus de dada que conté una variable en un moment donat, po
 'object'
 ``` 
 
-#### Vectors j JSON
+#### Vectors i JSON
 
 Els vectors són col·leccions de valors/elements, bé del mateix tipus o de tipus diferent (a diferència d'altres llenguatges, que els tipus han de ser homogenis).
 
@@ -793,8 +793,11 @@ var obj=new Objecte();
 ```
 
 Quan es defineix així un objecte, aquest té accés a una propietat especial, anomenada prototipus (prototype), que permet accedir a la classe en sí.
+
 Per accedir a propietats dins una classe s'utilitza la paraula reservada `this`. Caldrà anar amb compte amb aquesta, ja que quan tenim objectes o propietats anidades, `this` sempre farà referència a l'objecte del nivell on es troba.
+
 Per accedir des de fora de la classe a un atribut o mètode fem ús de la notació punt (.): `Objecte.propietat / Objecte.mètode`.
+
 Per exemple, per definir la propietat *nom* d'una classe persona, podem fer-ho en la creació de la instància:
 
 ```js
