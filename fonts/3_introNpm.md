@@ -21,7 +21,7 @@ Per tal de veure la versió que tenim instal·lada de *npm*, podem consultar-ho 
 
 ```console
 $ npm -v
-3.5.2
+6.13.3
 ```
 
 ## 2. Creació d'un paquet amb node
@@ -103,7 +103,7 @@ Si ara tornem a comprovar la versió (caldrà fer-ho amb una altra terminal):
 
 ```
 $ npm -v
-6.13.3
+6.14.9
 ```
 
 * Instal·lació de paquets a **nivell de projecte**, és a dir, com a dependència d'aquest. A més, dins el projecte, es pot especificar de dues formes:
@@ -119,7 +119,7 @@ $ npm instal nom_del_modul --save
 $ npm instal nom_del_modul --save-dev
 ```
 
-L'ordre `npm install` també pot utilitzar-se sense cap altre modificador. En eixe cas, descarrega i instal·la el paquet, però no modifica el fitxer `package.json` indicant que aquest és una dependència.
+L'ordre `npm install` també pot utilitzar-se sense cap altre modificador. En eixe cas, per defecte interpretarà que es tracta d'una dependència de l'aplicació, afegint-la en la secció corresponent (com si ferem un `--save`)
 
 Anem a veure un exemple. Instal·lem, per posar un exemple el paqet `xml`, per tractar fitxers d'aquest tipus. Per a això faríem, dins la carpeta on tenim el fitxer *package.json*:
 
