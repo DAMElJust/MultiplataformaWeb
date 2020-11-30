@@ -11,7 +11,7 @@ En aquest repositori trobareu diferents documents, associats als diferents mòdu
 ## Guía de continguts
 
 | Contingut | Font | Pdf | Mòduls relacionats |
-|----------------|-----------------|------------------|
++----------------+-----------------+------------------+--------------------+
 | 1. Introducció a nodejs | [![](img/md.png)](fonts/1_Nodejs-Intro.md) | [![](img/pdf.png)](pdf/) | Comú |
 | 2. Introducció al llenguatge Javascript | [![](img/md.png)](fonts/2_intro-js.md) | [![](img/pdf.png)](pdf/2_intro-js.pdf) | Comú |
 | 3. Introducció a npm | [![](img/md.png)](fonts/3_introNpm.md) | [![](img/pdf.png)](pdf/3_introNpm.pdf) | Tots |
