@@ -18,3 +18,10 @@ En aquest repositori trobareu diferents documents, associats als diferents mòdu
 | 4. Persistència amb fitxers | [![](img/md.png)](fonts/4_PersistenciaFitxersNode.md) | [![](img/pdf.png)](pdf/4_PersistenciaFitxersNode.pdf) | AD |
 | 5. Programació concurrent amb nodejs | [![](img/md.png)](fonts/5_Concurrencia_nodejs.md) | [![](img/pdf.png)](pdf/5_Concurrencia_nodejs.pdf) | PSP |
 
+
+## Alguns enllaços d'interès
+
+* [Article *Entenent L'event Loop*](https://aprendiendo-nodejs.blogspot.com/2017/07/entendiendo-el-event-loop.html)
+* [Creació d'executables multiplataforma nodejs amb pkg](https://medium.com/@jamomani/run-node-app-as-single-executable-file-on-windows-mac-or-linux-d4e9a98ef6fd)
+
+
