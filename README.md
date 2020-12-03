@@ -22,6 +22,7 @@ En aquest repositori trobareu diferents documents, associats als diferents mòdu
 ## Alguns enllaços d'interès
 
 * [Article *Entenent L'event Loop*](https://aprendiendo-nodejs.blogspot.com/2017/07/entendiendo-el-event-loop.html)
+* [Exemple visual del funcionament de l'event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 * [Creació d'executables multiplataforma nodejs amb pkg](https://medium.com/@jamomani/run-node-app-as-single-executable-file-on-windows-mac-or-linux-d4e9a98ef6fd)
 
 
