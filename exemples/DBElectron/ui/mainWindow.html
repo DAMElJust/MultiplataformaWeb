@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="ca">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <link href="../node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+
+    <!--script type="text/javascript" src="../node_modules/bootstrap.native/dist/bootstrap-native-v4.min.js"></script-->
+    <script type="text/javascript" src="../node_modules/bootstrap.native/dist/bootstrap-native.min.js"></script>
+
+    <link href="css/bootstrap-material-design.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    
+    <script src="./js/mainWindow.js"></script> 
+    
+    <title>Pelis</title>
+
+
+</head>
+
+<body>
+
+<div class="container" style="margin:20px;">
+    <h1>Llistat de pel·lícules</h1>
+    <div style="max-height: 80vh; overflow-y:scroll;">
+
+    <table class="table">
+        <thead>
+        <tr class="table-primary">
+            <th>Títol</th>
+            <th>Any</th>
+            <th>Director</th>
+            <th></th><th></th>
+        </tr>
+        </thead>
+
+        <tbody id="tableBody">
+            <!-- Aci anirà el contingut creat dinàmicament -->
+        </tbody>
+    </table>
+
+    </div>
+
+    </div>
+
+
+<!-- Botó per afegir un nou registre: El mantenim ocult per tal de controlar millor el comportament -->
+<button id="myModalTrigger" type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" style="display:none;"></button>
+<button type="button" class="btn btn-primary" id="addNewPeli">Afig una peli</button>
+
+
+<!-- Diàleg modal -->
+<div id="myModal" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        
+        <h4 class="modal-title" id="myModalLabel">Afig una peli</h4>
+        <button type="button" class="close" data-dismiss="modal" id="btCloseModal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        
+      </div>
+      <div class="modal-body">
+        
+            <div class="form-group">
+                    <div class="form-group">
+                    <label for="Titol">Títol</label>
+                        <input type="text" class="form-control" id="Titol" placeholder="Títol" name="Titol">
+                    </div>
+                    
+                    <div class="form-group">
+                    <label for="Any">Any de producció</label>
+                        <input type="text" class="form-control" id="Any" placeholder="Any de producció" name="Any">
+                    </div>
+                    
+                    <div class="form-group">
+                    <label for="Director">Director</label>
+                        <input type="text" class="form-control" id="Director" placeholder="Director" name="Director">
+                    </div>
+                    
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel·la</button>
+        <button type="button" class="btn btn-primary" id="SaveData" peliId="">Guarda</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
