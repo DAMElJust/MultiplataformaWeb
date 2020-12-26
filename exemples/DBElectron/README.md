@@ -29,6 +29,12 @@ Checking for previous docker container created for DBCine...
 DBCine container created yet, running it...
 ```
 
+>
+> ***Compte!***
+>
+> Recordeu que cada vegada que reinicieu l'ordinador, haureu de posar en marxa el contenidor de la base de dades.
+>
+
 Per tal de comprovar que la BD està funcionant, podeu fer ús de `docker ps`:
 
 ```
