@@ -646,3 +646,4 @@ A continguació us passem alguns articles on parlen del desenvolupament amb aque
 * [How to use Electron to build responsive desktop apps](https://thenextweb.com/syndication/2020/11/22/how-to-use-electron-to-build-responsive-desktop-apps/)
 * [How to Build Desktop Applications using Electron the Right Way](https://livecodestream.dev/post/how-to-build-desktop-applications-using-electron-the-right-way/)
 * [Construyendo aplicaciones web de escritorio con Electron](https://medium.com/@BlackHarpy/construyendo-aplicaciones-web-de-escritorio-con-electron-974c3e2174b)
+* [Why not to build an Electron App](https://medium.com/shipmnts/why-not-to-build-an-electron-app-92b2f5a99d33)
