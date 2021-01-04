@@ -17,7 +17,9 @@ En aquest repositori trobareu diferents documents, associats als diferents mòdu
 | 3. Introducció a npm | [![](img/md.png)](fonts/3_introNpm.md) | [![](img/pdf.png)](pdf/3_introNpm.pdf) | Tots |
 | 4. Persistència amb fitxers | [![](img/md.png)](fonts/4_PersistenciaFitxersNode.md) | [![](img/pdf.png)](pdf/4_PersistenciaFitxersNode.pdf) | AD |
 | 5. Programació concurrent amb nodejs | [![](img/md.png)](fonts/5_Concurrencia_nodejs.md) | [![](img/pdf.png)](pdf/5_Concurrencia_nodejs.pdf) | PSP |
+| 6. Exemple d'aplicació amb Electron |  [![](img/md.png)](fonts/6_ExempleAppHTML5_AD.md ) | [![](img/pdf.png)](pdf/6_ExempleAppHTML5_AD.pdf) | PSP/AD/DI |
 
+L'aplicació d'exemple es troba en un repositori específic: [https://github.com/DAMElJust/exemples2020](https://github.com/DAMElJust/exemples2020)
 
 ## Alguns enllaços d'interès
 
